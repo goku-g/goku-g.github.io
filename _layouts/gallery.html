@@ -1,16 +1,33 @@
----
-layout: default
----
+{%- include top.html -%}
 
-<div class="container py-4">
+<body class="wrap">
+  {%- include header.html -%}
+
   <div class="row">
     <div class="col-12">
       <h1 class="display-4 mb-4">{{ page.title }}</h1>
       <hr>
       
       <div class="content">
-        {{ content }}
+        {{- content -}}
       </div>
     </div>
   </div>
-</div>
+
+  {%- include footer.html -%}
+  {%- include anchor_links.html -%}
+  {%- include analytics.html -%}
+  {%- include search/script.html -%}
+  
+  {%- comment -%}
+  // This function is called when the user selects an option from a <select> element.
+  // If the selected option has a valid URL, it changes the window location to that URL.
+  {%- endcomment %}
+
+  <script>
+  const navigateToUrl = (select) => {
+    const url = select.value;
+    url && (window.location.href = url);
+  };
+  </script>
+</body>
