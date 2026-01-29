@@ -3,7 +3,7 @@ layout: events
 title: Gallery
 subtitle: null
 banner_image: null
-permalink: /gallery/
+permalink: /events/
 
 gallery_images:
   - file: robot-tests.jpg
