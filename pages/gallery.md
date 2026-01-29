@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: people
 title: Gallery
 subtitle: null
 banner_image: null
