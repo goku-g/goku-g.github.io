@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: page
 title: Gallery
 subtitle: null
 banner_image: null
@@ -10,7 +10,7 @@ gallery_images:
     caption: "Field testing the path planning algorithm"
   - file: lab-setup.jpg
     caption: "Our Jetson Nano setup"
-  - file: wheat-crops.jpg
+  - file: wheat-crops.png
     caption: "Data collection in the wheat field"
 ---
 
