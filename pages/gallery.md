@@ -1,16 +1,16 @@
 ---
-layout: page
+layout: gallery
 title: Gallery
 subtitle: null
 banner_image: null
 permalink: /gallery/
 
 gallery_images:
-  - file: robot-test.jpg
+  - file: robot-tests.jpg
     caption: "Field testing the path planning algorithm"
-  - file: lab-setup.jpg
+  - file: lab-setups.jpg
     caption: "Our Jetson Nano setup"
-  - file: wheat-crops.png
+  - file: wheat-cropss.png
     caption: "Data collection in the wheat field"
 ---
 
