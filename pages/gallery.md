@@ -1,19 +1,20 @@
 ---
-layout: base/default
+layout: events
 title: Gallery
 subtitle: null
 banner_image: null
 permalink: /gallery/
 
 gallery_images:
-  - file: robot-tests.jpg
+  - file: robot-test.jpg
     caption: "Field testing the path planning algorithm"
-  - file: lab-setups.jpg
+  - file: lab-setup.jpg
     caption: "Our Jetson Nano setup"
-  - file: wheat-cropss.png
+  - file: wheat-crops.png
     caption: "Data collection in the wheat field"
 ---
 
+<!-- Content here would show up above your list of -->
 <div class="row">
 {% for item in page.gallery_images %}
   <div class="col-sm-6 col-md-4 mb-4">

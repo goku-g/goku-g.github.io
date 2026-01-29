@@ -11,10 +11,7 @@
   href: /people/ 
 
 - text: Publications # simpler data set set in publications.yml
-  href: /publications/ 
-
-- text: Events # extended event descriptions in _posts .md files
-  href: /events/  
+  href: /publications/   
 
 - text: Gallery
   href: /gallery/
