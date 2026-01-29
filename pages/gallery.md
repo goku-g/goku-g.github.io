@@ -1,7 +1,10 @@
 ---
 layout: page
 title: Gallery
+subtitle: null
+banner_image: null
 permalink: /gallery/
+
 gallery_images:
   - file: robot-test.jpg
     caption: "Field testing the path planning algorithm"
