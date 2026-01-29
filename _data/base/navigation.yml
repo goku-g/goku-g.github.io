@@ -13,8 +13,8 @@
 - text: Publications # simpler data set set in publications.yml
   href: /publications/ 
 
-- text: News # extended event descriptions in _posts .md files
-  href: /newsfeed/  
+- text: Events # extended event descriptions in _posts .md files
+  href: /events/  
 
 - text: Gallery
   href: /gallery/
