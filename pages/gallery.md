@@ -2,7 +2,7 @@
 layout: base/default
 title: Gallery
 subtitle: null
-banner_image: null
+banner_image: /assets/images/vintage-newspaper-print-downsize.jpg
 permalink: /gallery/
 
 gallery_images:
