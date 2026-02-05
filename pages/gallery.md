@@ -21,12 +21,6 @@ gallery_images:
   - file: wheat-crops.png
     caption: "Data collection in the wheat field"
     href: /newsfeed/feb10-2025/ # link if this associated with any events (eg. /newsfeed/dec10-2025/)
-  - file: wheat-crops.png
-    caption: "Data collection in the wheat field"
-    href: /newsfeed/feb10-2025/ # link if this associated with any events (eg. /newsfeed/dec10-2025/)
-  - file: wheat-crops.png
-    caption: "Data collection in the wheat field"
-    href: /newsfeed/feb10-2025/ # link if this associated with any events (eg. /newsfeed/dec10-2025/)
 ---
 
 <!-- Content here would show up in body -->
