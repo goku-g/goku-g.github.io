@@ -30,18 +30,18 @@ gallery_images:
     <div class="card h-100 mb-0">
       <!-- <img src="{{ site.baseurl }}/assets/images/gallery/{{ item.file }}" class="card-img" alt="{{ item.caption }}"> -->
       <!-- if any image has the href beside the caption then add anchor tag for href -->
-      {% if item.href != nil %}
-      <a href="{{item.href}}">
-      {% endif %}
       <img src="{{ site.baseurl }}/assets/images/gallery/{{ item.file }}" 
            class="card-img" 
            alt="{{ item.caption }}"
+           data-full="{{ site.baseurl }}/assets/images/gallery/{{ item.file }}"
            style="height: 250px; object-fit: contain; width: 100%; background-color: #f8f9fa;">
-      {% if item.href != nil %}
-      </a>
-      {% endif %}
       <div class="card-body-bottom p-3">
-        <p class="card-text text-center text-muted m-0 small">{{ item.caption }}</p>
+        <p class="card-text text-center text-muted m-0 small">
+        {{ item.caption }}
+        {% if item.href != nil %}
+        <a href="{{item.href}}"> More</a>
+        {% endif %}
+        </p>
       </div>
     </div>
   </div>
