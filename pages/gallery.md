@@ -39,7 +39,7 @@ gallery_images:
         <p class="card-text text-center text-muted m-0 small">
         {{ item.caption }}
         {% if item.href != nil %}
-        <a href="{{item.href}}"> More</a>
+        <a href="{{item.href}}" class="small"> &nbsp; More info</a>
         {% endif %}
         </p>
       </div>
@@ -58,7 +58,7 @@ gallery_images:
   z-index:1050;
   justify-content:center;
   align-items:center;">
-  <img id="lightbox-img" style="max-width:90%; max-height:90%;">
+  <img id="lightbox-img" style="max-width:80%; max-height:80%;">
 </div>
 
 <script>
