@@ -31,7 +31,7 @@ gallery_images:
       <!-- <img src="{{ site.baseurl }}/assets/images/gallery/{{ item.file }}" class="card-img" alt="{{ item.caption }}"> -->
       <!-- if any image has the href beside the caption then add anchor tag for href -->
       <img src="{{ site.baseurl }}/assets/images/gallery/{{ item.file }}" 
-           class="card-img" 
+           class="card-img gallery-img" 
            alt="{{ item.caption }}"
            data-full="{{ site.baseurl }}/assets/images/gallery/{{ item.file }}"
            style="height: 250px; object-fit: contain; width: 100%; background-color: #f8f9fa;">
