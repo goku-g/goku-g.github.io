@@ -47,3 +47,40 @@ gallery_images:
   </div>
 {% endfor %}
 </div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" style="
+  display:none;
+  position:fixed;
+  top:0; left:0;
+  width:100%; height:100%;
+  background:rgba(0,0,0,0.85);
+  z-index:1050;
+  justify-content:center;
+  align-items:center;">
+  <img id="lightbox-img" style="max-width:90%; max-height:90%;">
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+
+  document.querySelectorAll(".gallery-img").forEach(img => {
+    img.addEventListener("click", function () {
+      lightboxImg.src = this.dataset.full;
+      lightbox.style.display = "flex";
+    });
+  });
+
+  lightbox.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      lightbox.style.display = "none";
+    }
+  });
+});
+</script>
